@@ -10,6 +10,7 @@ No `@import` is needed — do **not** reference these from `claude.md`, or they'
 | --- | --- | --- |
 | `design-principles.md` | `**/*.{css,scss,html,jsx,tsx,vue,svelte,astro,mdx}` | Core design philosophy, grids & layout, typography, eye movement & flow, the LIFT system, making a page memorable, and the 2026 trend list. |
 | `web-design-hacks.md` | `**/*.{css,scss,html,jsx,tsx,vue,svelte,astro,mdx}` | Quick tactical tips: layout patterns, type, color (60-30-10), image selection, UX, and technical/SEO/accessibility. Image build mechanics (WebP/sizing) live in the root `claude.md` instead. |
+| `storytelling.md` | `**/*.{html,jsx,tsx,vue,svelte,astro,mdx,md}` | Website copy and messaging via the StoryBrand 7-part framework (customer is the hero, brand is the guide). Scoped to markup/content files only — no CSS/SCSS, since copy doesn't live there. |
 
 ## How it works
 
