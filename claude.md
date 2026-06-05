@@ -60,3 +60,8 @@ If you genuinely think a convention is harmful, surface it. Don't fork silently.
 "Completed" is wrong if anything was skipped silently.
 "Tests pass" is wrong if any were skipped.
 Default to surfacing uncertainty, not hiding it.
+
+
+## Rule 13 — Never append 'co-authored by' statements of any kind, to any commit. 
+
+## Rule 14 - Always ask for approval before committing. 
