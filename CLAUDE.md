@@ -46,6 +46,9 @@ Never append 'co-authored by' statements of any kind, to any commit.
 **Rule 14 — Approval before committing**
 Always ask for approval before committing.
 
+**Rule 15 - Never use em-dashes.**
+Never use em-dashes in copy. 
+
 ## Design guidance
 
 Design and frontend styling rules live in `.claude/rules/` (`design-principles.md` and `web-design-hacks.md`). They load automatically when working on frontend files (CSS, SCSS, HTML, JSX/TSX, Vue, Svelte, Astro, MDX) — no import needed. See `.claude/rules/README.md` for scope and contents.
