@@ -1,0 +1,46 @@
+---
+description: Standards for new repositories and project structure to maximize community engagement and maintainability.
+paths:
+  - "**/*"
+---
+# Repository Popularity & Standards (10 Key Elements)
+
+When initializing a new repository, refactoring an existing project, or generating project boilerplate, you MUST implement the following 10 structural components:
+
+## 1. Documentation First
+- Generate a comprehensive `README.md` in the root directory.
+- It must include: Project description, exact installation commands, usage examples, and placeholders for build/version badges.
+
+## 2. Issue Management
+- Scaffold issue templates in `.github/ISSUE_TEMPLATE/` (e.g., `bug_report.yml` and `feature_request.yml`).
+- Include standard fields for steps to reproduce, expected behavior, and environment details.
+
+## 3. Community Health Files
+- Generate a `CONTRIBUTING.md` outlining local setup instructions and the pull request process.
+- Include a standard `CODE_OF_CONDUCT.md` to establish community norms.
+
+## 4. Branching Strategy
+- Enforce standard branching: instruct users to use feature branches (e.g., `feature/xyz`, `bugfix/xyz`). 
+- Do not make direct commits to `main` when simulating workflow commands.
+
+## 5. CI/CD Workflows
+- Ensure at least one baseline GitHub Action workflow exists in `.github/workflows/` (e.g., `ci.yml`) to run tests and linters automatically on pull requests.
+
+## 6. Clear Licensing
+- Prompt the user to select an open-source license.
+- Generate a `LICENSE` file in the root directory (default to MIT if unspecified).
+
+## 7. Commit Discipline
+- Enforce atomic, logical commits.
+- Commit messages must follow Conventional Commits format (e.g., `feat: add user auth`, `fix: resolve crash on startup`).
+
+## 8. Release Momentum 
+- When wrapping up a major feature or bug fix session, remind the user to draft a GitHub Release.
+- Output a formatted changelog of the session's work to make release drafting easy.
+
+## 9. Domain Alignment
+- Generate a robust, stack-specific `.gitignore` to keep the repository clean.
+- Ensure the code architecture follows standard conventions for the primary language used.
+
+## 10. Semantic Versioning
+- Enforce strict semantic versioning (`v[Major].[Minor].[Patch]`) for all tags and package files (e.g., `package.json`, `requirements.txt`).
